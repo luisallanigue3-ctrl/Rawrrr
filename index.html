@@ -1,98 +1,112 @@
-<div class="card" id="card">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <h2>Hi Babyyyy :>></h2>
+  <div class="card" id="card">
 
-  <p>
-    I'm sorry I can't do anything in person,
-    will you accept this?
-  </p>
+    <h2>Hi Babyyyy :>></h2>
 
-  <button class="btn" onclick="sayYes()">Yes</button>
+    <p>
+      I'm sorry I can't do anything in person,
+      will you accept this?
+    </p>
 
-  <div class="heart"></div>
-  <div class="heart"></div>
-  <div class="heart"></div>
+    <button class="btn" onclick="sayYes()">Yes</button>
 
-</div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
 
-
-<div class="surprise" id="surprise">
-
-  <!-- BACKGROUND -->
-  <div class="stars"></div>
-  <div class="moon"></div>
-  <div class="sun"></div>
-
-  <div class="cloud cloud1"></div>
-  <div class="cloud cloud2"></div>
-
-
-  <!-- FLOATING HEARTS -->
-  <div class="floating-heart h1">♥</div>
-  <div class="floating-heart h2">♥</div>
-  <div class="floating-heart h3">♥</div>
-  <div class="floating-heart h4">♥</div>
-  <div class="floating-heart h5">♥</div>
-  <div class="floating-heart h6">♥</div>
-
-
-  <!-- FLOWERS -->
-  <div class="flower flower1">🌸</div>
-  <div class="flower flower2">🌷</div>
-  <div class="flower flower3">🌸</div>
-
-
-  <!-- MAIN MESSAGE -->
-  <div class="message" id="message"></div>
-
-
-  <!-- FINAL HEART -->
-  <div class="final-heart" id="finalHeart">
-    ♥
   </div>
 
 
-  <!-- FINAL MESSAGE -->
-  <div class="final-message" id="finalMessage">
-    I hope you liked it, baby :>>>
-  </div>
+  <div class="surprise" id="surprise">
+
+    <!-- BACKGROUND -->
+    <div class="stars"></div>
+    <div class="moon"></div>
+    <div class="sun"></div>
+
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
 
 
-  <!-- REPLAY QUESTION -->
-  <div class="replay" id="replay">
+    <!-- FLOATING HEARTS -->
+    <div class="floating-heart h1">♥</div>
+    <div class="floating-heart h2">♥</div>
+    <div class="floating-heart h3">♥</div>
+    <div class="floating-heart h4">♥</div>
+    <div class="floating-heart h5">♥</div>
+    <div class="floating-heart h6">♥</div>
 
-    <div class="replay-text">
-      You want it to go again?:>>
+
+    <!-- FLOWERS -->
+    <div class="flower flower1">🌸</div>
+    <div class="flower flower2">🌷</div>
+    <div class="flower flower3">🌸</div>
+
+
+    <!-- MAIN MESSAGE -->
+    <div class="message" id="message"></div>
+
+
+    <!-- FINAL HEART -->
+    <div class="final-heart" id="finalHeart">
+      ♥
     </div>
 
-    <div class="replay-buttons">
 
-      <button class="replay-btn" onclick="restart()">
-        Yes 💗
-      </button>
+    <!-- FINAL MESSAGE -->
+    <div class="final-message" id="finalMessage">
+      I hope you liked it, baby :>>>
+    </div>
 
-      <button class="replay-btn no-btn" onclick="finish()">
-        No :>>
-      </button>
+
+    <!-- REPLAY QUESTION -->
+    <div class="replay" id="replay">
+
+      <div class="replay-text">
+        You want it to go again?:>>
+      </div>
+
+      <div class="replay-buttons">
+
+        <button class="replay-btn" onclick="restart()">
+          Yes 💗
+        </button>
+
+        <button class="replay-btn no-btn" onclick="finish()">
+          No :>>
+        </button>
+
+      </div>
 
     </div>
 
+
+    <!-- FINAL GOODBYE -->
+    <div class="goodbye" id="goodbye">
+      Okiii always remember that I'm here for you
+      and I love youuuu 💗
+    </div>
+
+
+    <!-- MUSIC -->
+    <audio id="song" preload="auto">
+      <source
+        src="song.mp3"
+        type="audio/mpeg"
+      >
+    </audio>
+
   </div>
 
-
-  <!-- FINAL GOODBYE -->
-  <div class="goodbye" id="goodbye">
-    Okiii always remember that I'm here for you
-    and I love youuuu 💗
-  </div>
-
-
-  <!-- MUSIC -->
-  <audio id="song" preload="auto">
-    <source
-      src="YOUR_AUTHORIZED_AUDIO_URL.mp3"
-      type="audio/mpeg"
-    >
-  </audio>
-
-</div>
+  <script src="script.js"></script>
+</body>
+</html>
